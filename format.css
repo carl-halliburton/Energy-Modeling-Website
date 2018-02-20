@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+	body {
+		width: 90%;
+		height: auto;
+		min-height: 100%;
+		margin: 0 auto;
+		background: #9AB5EC;
+	}
+			
+	/* unvisited link */
+	a:link {
+		color: yellow;
+	}
+
+	/* visited link */
+	a:visited {
+		color: yellow;
+	}
+
+	/* mouse over link */
+	a:hover {
+		color: white;
+	}
+
+	/* selected link */
+	a:active {
+		color: red;
+	}
+	
+	#titleImg {
+		width: 70%;
+		max-width: 70%;
+	}
+	
+	#navigation {
+		text-align: center;
+		font-size: 170%;
+		font-family: Sans-serif;
+		color: yellow;
+		background-color: #314B90;
+		padding: 0.5em 0;
+	}
+	
+	#navLi {
+		display: inline;
+		padding: 0.5em;
+	}
+	
+
+	#sideBar {
+		float: right;
+	}
+	
+	#phtoTom {
+		height: 300px;
+		max-height: 400px;
+		padding-left: 17%;
+		padding-right: 8%;
+	}
+		
+	#stakeholders {
+		font-size: 100%;
+		font-family: Sans-serif;
+		text-align: center;
+		padding-top: 3%;
+		padding-bottom: 3%;
+	}
+	
+	h2  {
+		font-size: 120%;
+		font-family: Sans-serif;
+		font-weight: bold;
+	}
+	
+	h4 {
+		text-align: center;
+	}
+	
+	#sideText {
+		background-color: #314B90;
+		width: 100%;
+		height: 110%;
+		padding-bottom: 5%;
+		padding-left: 1%;
+		padding-right: 1%;
+	}
+	
+	#contact {
+		font-size: 100%;
+		font-family: Sans-serif;
+		color: #FFFFFF;
+		text-align: left;
+		padding-left: 1%;
+		padding-right: 1%;
+		height: 110%;
+	}
+	
+	#content {
+		height: 100%;
+		overflow: auto;
+		padding: 10px;
+		padding-bottom: 3em;   /* Height of the footer */  
+	}
+	
+	#introText {
+		/*margin-left: 5%;
+		margin-right: 5%;*/
+		width: 70%;
+		font-size: 110%;
+		font-family: Sans-serif;
+	}
+	
+	#contactList {
+		padding-left: 10%;
+	}
+	
+	#papersList {
+		width: 30%;
+		padding: 1%;
+		font-size: 100%;
+		font-family: Sans-serif;
+		background-color: #314B90;
+		color: #FFFFFF;
+	}
+	
+	#projectList, #bio, #clientList {
+		font-size: 90%;
+		font-family: Sans-serif;
+	}
+	
+	#footer {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		text-align: center;
+		font-size: 70%;
+		font-family: Sans-serif;
+		color: white;
+		background-color: #314B90;
+		padding: 0.5em 0;
+	}
